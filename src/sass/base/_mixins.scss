@@ -1,0 +1,47 @@
+/*Адаптивне фонове зображення*/
+@mixin backGroundImage2x($path) {
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url($path);
+  }
+}
+
+@mixin backGroundImage1x($path) {
+  background-image: url($path);
+}
+
+// @mixin backGroundImage2x($path) {
+//   @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(255, 255, 255, 0.75),
+//         rgba(255, 255, 255, 0.25)
+//       ),
+//       url($path);
+//   }
+// }
+
+// @mixin backGroundImage1x($path) {
+//   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25)),
+//     url($path);
+// }
+
+// @mixin backGroundImage2x($path) {
+//   @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//     background-image: url($path),
+//       linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+//   }
+// }
+
+// @mixin backGroundImage1x($path) {
+//   background-image: url($path),
+//     linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+// }

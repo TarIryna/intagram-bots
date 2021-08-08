@@ -1,0 +1,28 @@
+:root {
+  /*Кольорова гамма фону*/
+  --main-bg-color: #fff;
+  --secondary-bg-color: rgba(255, 255, 255, 0.5);
+  --third-bg-color: #f2f2f2;
+  --image-bg-color: #e5e5e5;
+  --body-bg-color: #0c0d0d;
+  --box-bg-color: #FCFCFC;
+  --text-bg-color: #F9F9F9;
+
+  /*Кольорова гамма тексту*/
+  --main-txt-color: #1a1a1a;
+  --secondary-txt-color: #808080;
+  --third-txt-color: #fff;
+  --fourth-txt-color: #595959;
+
+  /*Колір акценту*/
+  --accent-color: #4754eb;
+  --accent-color-hovered: #505dec;
+
+  /*Назва шрифта*/
+  --main-font-name: 'Visuelt Pro';
+
+  /* Параметри для анімації */
+  --animation-duration: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-delay: 1000ms;
+}

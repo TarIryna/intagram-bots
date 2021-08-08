@@ -1,0 +1,98 @@
+.section-sale {
+  background: var(--main-bg-color);
+}
+.section-sale__image {
+  display: block;
+  max-width: 100%;
+  background-color: rgb(236, 230, 246);
+  @media screen and (min-width: 768px) {
+    width: 628px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section-sale__container {
+  padding-left: 20px;
+  padding-right: 20px;
+  @media screen and (min-width: 768px) {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+
+.section-sale__title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.25;
+  @media screen and (min-width: 768px) {
+    font-size: 56px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 120px;
+  }
+}
+.section-sale__form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  padding: 8px;
+  height: 56px;
+  width: 100%;
+  background-color: var(--third-bg-color);
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--secondary-txt-color);
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    height: 64px;
+    width: 450px;
+  }
+}
+.section-sale__input {
+  margin-left: 8px;
+  background-color: var(--third-bg-color);
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+.section-sale__button {
+  width: 122px;
+  height: 40px;
+  background-color: var(--accent-color);
+  border-radius: 16px;
+  border: none;
+  color: var(--third-txt-color);
+  font-weight: 500;
+  &:focus {
+    outline: none;
+  }
+}
+.section-sale__signature {
+  color: var(--fourth-txt-color);
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+.section-sale .container {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    padding-top: 0;
+  }
+}
+.section-sale__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.25;
+}
+.section-sale__image {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 628px;
+    height: 640px;
+  }
+}

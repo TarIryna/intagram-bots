@@ -1,0 +1,14 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="open" viewBox="0 0 34 34">
+<path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.5" d="M16.889 7.111c3.927 0 7.111 3.184 7.111 7.111s-3.184 7.111-7.111 7.111c-3.927 0-7.111-3.184-7.111-7.111s3.184-7.111 7.111-7.111z"></path>
+<path fill="none" stroke="#1a1a1a" style="stroke: var(--color2, #1a1a1a)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.8889" d="M16.889 10.667v7.111M13.333 14.222h7.111"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color3, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4444" d="M16.889 7.333c3.805 0 6.889 3.084 6.889 6.889s-3.084 6.889-6.889 6.889c-3.805 0-6.889-3.084-6.889-6.889s3.084-6.889 6.889-6.889z"></path>
+</symbol>
+<symbol id="close" viewBox="0 0 34 34">
+<path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.5" d="M16.889 7.111c3.927 0 7.111 3.184 7.111 7.111s-3.184 7.111-7.111 7.111c-3.927 0-7.111-3.184-7.111-7.111s3.184-7.111 7.111-7.111z"></path>
+<path fill="none" stroke="#1a1a1a" style="stroke: var(--color2, #1a1a1a)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.8889" d="M14.375 11.708l5.028 5.028M14.375 16.736l5.028-5.028"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color3, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4444" d="M16.889 7.333c3.805 0 6.889 3.084 6.889 6.889s-3.084 6.889-6.889 6.889c-3.805 0-6.889-3.084-6.889-6.889s3.084-6.889 6.889-6.889z"></path>
+</symbol>
+</defs>
+</svg>

@@ -1,0 +1,20 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+@import './utils/variables';
+@import './utils/utils';
+@import './base/fonts';
+@import './base/mixins';
+@import './base/base';
+@import './components/page-header';
+@import './components/section-hero';
+@import './components/section-advantages';
+@import './components/section-how-we-do';
+@import './components/section-tariffs';
+@import './components/section-reviews';
+@import './components/section-sale';
+@import './components/section-questions';
+@import './components/section-feedback';
+@import './components/page-footer';

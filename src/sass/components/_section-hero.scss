@@ -1,0 +1,121 @@
+.hero {
+    min-height: 720px;
+}
+.hero .container {
+    @media screen and (min-width: 1440px) {
+        display: flex;
+    }
+}
+.hero__wrapper-text {
+    padding-top: 40px;
+    padding-left: 12px;
+
+    @media screen and (min-width: 1440px) {
+        width: calc((100% - 24px)/2);
+        margin-right: 24px;
+        padding-top: 120px;
+        padding-left: 32px;
+    }
+}
+.hero__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 125%;
+    color: var(--main-txt-color);
+
+    @media screen and (min-width: 768px) {
+        font-size: 56px;
+    }
+}
+.hero__wrapper-input {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+.hero__input {
+    width: 320px;
+    background: var(--secondary-bg-color);
+    border: none;
+    border-radius: 16px;
+    padding: 20px 16px;
+
+    @media screen and (min-width: 768px) {
+        width: 450px;
+        padding: 18px 16px;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 465px;
+    }
+}
+.hero__input::placeholder {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: var(--secondary-txt-color);
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+    }
+}
+.hero__btn {
+    position: absolute;
+    right: 8px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135%;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 16px;
+    color: var(--accent-color);
+    background-color: var(--main-bg-color);
+
+    @media screen and (min-width: 768px) {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+}
+.hero__text {
+    max-width: 354px;
+    margin-top: 16px;
+    padding-left: 8px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 135%;
+    color: var(--fourth-txt-color);
+}
+.hero__link {
+    color: var(--accent-color-hovered);
+}
+.hero__box {
+    display: flex;
+    align-items: center;
+
+    margin-top: 126px;
+    color: white;
+
+    @media screen and (max-width: 1439px) {
+        display: none;
+    }
+}
+.hero__box .hero__img {
+    width: 24px;
+    height: 32px;
+    margin-right: 8px;
+}
+.hero__box-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+}
+.hero__wrapper-img {
+    @media screen and (min-width: 1440px) {
+        width: calc((100% - 24px)/2);
+    }
+}
+.hero__image-thumb {
+    width: 80%;
+}
