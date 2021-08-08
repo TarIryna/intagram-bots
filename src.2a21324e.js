@@ -11,4 +11,4 @@ var e=document.getElementsByClassName("section-reviews__button"),s=document.getE
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider.js"),require("./js/questions.js"),require("./js/structured.js"),require("./js/mobile-menu.js");
 },{"./sass/main.scss":"clu1","./js/slider.js":"10wz","./js/questions.js":"NTFb","./js/structured.js":"w5eS","./js/mobile-menu.js":"sByI"}]},{},["Focm"], null)
-//# sourceMappingURL=/instagram-bots-teamtest/src.893b0889.js.map
+//# sourceMappingURL=/intagram-bots/src.2a21324e.js.map
