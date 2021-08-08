@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://vova-rsk.github.io/instagram-bots-teamtest",
+  "homepage": "http://tariryna.github.io/intagram-bots/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /instagram-bots-teamtest/"
+    "build": "parcel build src/*.html --public-url /intagram-bots/"
   },
   "repository": {
     "type": "git",
