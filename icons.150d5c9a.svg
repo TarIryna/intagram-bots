@@ -1,0 +1,17 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="mobile-logos" viewBox="0 0 28 32">
+<path d="M14.222 17.778c-6.64 0-12.217 4.55-13.783 10.703-0.484 1.903 1.153 3.52 3.117 3.52h21.333c1.964 0 3.601-1.617 3.117-3.52-1.566-6.152-7.143-10.703-13.783-10.703z"></path>
+<path d="M21.333 7.111c0 3.927-3.184 7.111-7.111 7.111s-7.111-3.184-7.111-7.111c0-3.927 3.184-7.111 7.111-7.111s7.111 3.184 7.111 7.111z"></path>
+</symbol>
+<symbol id="close-24px" viewBox="0 0 32 32">
+<path d="M6.828 25.132c-0.521-0.521-0.521-1.365 0-1.886l16.971-16.971c0.521-0.521 1.365-0.521 1.886 0s0.521 1.365 0 1.886l-16.971 16.971c-0.521 0.521-1.365 0.521-1.886 0z"></path>
+<path d="M6.276 6.466c0.521-0.521 1.365-0.521 1.886 0l16.971 16.971c0.521 0.521 0.521 1.365 0 1.886s-1.365 0.521-1.886 0l-16.971-16.971c-0.521-0.521-0.521-1.365 0-1.886z"></path>
+</symbol>
+<symbol id="menu-24px" viewBox="0 0 32 32">
+<path stroke-width="2.6667" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M6.667 8h18.667"></path>
+<path stroke-width="2.6667" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M6.667 16h13.333"></path>
+<path stroke-width="2.6667" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M6.667 24h13.333"></path>
+</symbol>
+</defs>
+</svg>
